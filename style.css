@@ -1,0 +1,50 @@
+h1{
+  font-family: Arial, Helvetica, sans-serif;  
+    
+}
+body{
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASIAAACuCAMAAAClZfCTAAAANlBMVEVImfpqrvtptfxls/yazP1mrPtOn/trt/ybx/xKmvpjqftdpvtmq/tcpftNnPpUoPqFuftClvooOtvzAAADxUlEQVR4nO3di3LUMAwF0ARIoHls6P//bMMyLTulxSaSrKtr3T/YM7b8ytrDj2lEyzFczPz9i3q+fhvwiNarQt0QLZeFeiESCA2zvhAg0XSTEHXRip4EQn0QXR7MuiGSCfVAJBTqgGgXCvETXZ8y9kIkbkP0RApC5ETyXsZOpCJETaQjxEykJERMJFnc90GkMZZxE+kJsRJp1SFeIsU2REokXdvzE+kKMRIpC/ERiXbyuyDa1IXYiBbRWUcPRGqLDloi1ekQJZH2UEZHNM02QjxEBkPZK5G+kAuR5rr1PRFHK7Ip1ExEVmWIhshivshFZNnJOIiMZkM8RHZjPQuRdScLT2Q2oaYhWm1HMgIi8zodnch4MkRA1KoJhSVa7If64ETHc0OhiERNm1BIooZVKCZRo7lQXKIGK7LYRFOLFVloIoc+FotoabJkDUw0NR/HohHtTn0sDNHqMY5FInIGwifyq9JBiBbHKv0WZCKAFvQruJ89gADhtiIYIFQi91HsMYBEk9di7JPAEW0HFhAc0QIHBEYEVYLegkMEMU38KCBEE2YDugeCCLEC/Yk/0XbgNqB7nIm2Hdxn8CWa1hm5g73Gjej08f7tlfEhWlw3o/8z7Ym2Bb0+v0tjom2fY/kMTYm2FXr682naEE3LHqU4/x17orPx3MJ1rseYEp2NJ1hp/ihWROt+zE9NP0k0ixHRTw6de5KomCQqJomKSaJikqgYw0H/xjLo6ws9TB3XnDoWiHIBUkeUy9gqotwMqSP6vaV2C8fksDEbrTF5be8HKuB+h0RhCrjnUeOWR401SgEO1AA+e0BX8ica8+OZquQnWDXZ8kO+imA2JSgizKoERpSfptcFbBaASARWlDCJ2l8v84+gEp0tCWWZi0sE87c9ZCIQJGwiiMKNTuR34UwgonOelBdiVCDltSrFeG4DBCE6kfyueNIXyovC3Ii8rsKKRJSXFlYlr74sp31vC0fUfk0SkCgvc65J07Idkygvlq+JycuVXET5yEVNGr1zEZmo0dI2NFE+21STzb6zRSfKJ+Rqkg8RlpPPWZZj+5QcBZFtQSIhygeaK2I3+tMQ2b3STERkVZCYiIyMqIhsNpG4iExmkWREFgMbG9E4qe/8B/rsoTbaRZuuFekbMRIpG1ESjbvmcS0nkeo2GymRphErkaIRLZHeDhIvkZoRMZGWETORkhE1kY4RN5HKuEZOpGHETqRgRE8kN+InEq/7OyCSGvVAJDTqgmgU7fn3QSQ6F+mDSGTUCZHknLYXIsFyrRui68OaDdELg1zQzt219kQAAAAASUVORK5CYII=);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+*name{
+    font-size: larger;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color:black;
+    
+}
+form {
+    text-align:left;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color:rgb(192, 231, 255);
+    border:black;
+}
+div{
+    background-color:midnightblue;
+    color:white;
+    left:80px;
+    display:inline-block;
+}
+button{
+    border-radius: 1px;
+    color: black;
+
+}
+button:hover{
+    background-color: green;
+}
+.exp{
+    display: inline-block;
+    background-color: rgb(192, 231, 255);
+    text-align: left;
+    color: black;
+}

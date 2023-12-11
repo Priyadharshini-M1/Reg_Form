@@ -1,0 +1,91 @@
+# Reg_Form
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Employee registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form id="registrationform">
+
+        <h1 style="text-align: center">REGISTRATION FORM</h1>
+        <label for="name">Name</label>
+        <input type="text" placeholder="Type your name" id="nameinput">
+        <br>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" placeholder="enter your email address" id="emailinput">
+        <br>
+        <br>
+        <label for="dob">Date Of Birth</label>
+        <input type="date" id="dobinput" oninput="agecalculate()">
+        <br>
+        <br>
+
+        <label for="age">Age</label>
+        <input type="text" id="ageInput" readonly>
+        <br>
+        <br>
+        <label for="gender">Gender</label>
+        <br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+        <br>
+        <br>
+
+        <label for="experience" >Experience</label>
+        <input type="text" placeholder="enter the work experience" id="experienceinput" oninput="askExperience()">
+        <br>
+        <br>
+        <div id="experience-details" style="display:none;" class="exp">
+        <label for="previousCompanyExperience">Previous company Experience</label>
+        <input type="numbers" id="previouscompany">
+        <br>
+        <br>
+        <label for="presentCompanyExperience">Present company Experience</label>
+        <input type="numbers" id="presentcompany"></div>
+        <script>
+            function askExperience(){
+                const experience = document.getElementById('experienceinput').value;
+                const experienceDetails = document.getElementById('experience-details');
+                if(experience>=0){
+                    experienceDetails.style.display='block';
+                }else{
+                    experienceDetails.style.display='none';
+                }
+            }
+        </script
+        <br>
+        <br>
+        <label for="Department">Department</label>
+        <input type="text" placeholder="enter the department" id="deptinput"><br>
+        <br>
+        <label for="Address">Address</label>
+        <input type="text" placeholder="enter your address " id="addressinput"><br>
+        <br>
+        <label for="designation">Designation</label>
+        <input type="text" placeholder="enter your designation" id="designationinput"><br>
+        <br>
+        <label for="salary">Salary</label>
+        <input type="text" placeholder="enter your salary " id="salaryinput">
+        <button type="button" onclick="update()">Submit</button><br>
+        <br>
+        
+    
+        
+    </form>
+    <div id="detailscontainer"></div>
+    
+    <script src="index.js"></script>
+
+</body>
+
+</html>
